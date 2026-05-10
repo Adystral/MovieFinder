@@ -1,3 +1,20 @@
+/* Mobile Responsiveness Fixes */
+@media (max-width: 480px) {
+  .container {
+    padding: 20px 15px;
+  }
+
+  .search-box {
+    flex-direction: column; 
+    gap: 15px;
+  }
+
+  #search-btn {
+    width: 70%;
+    align-self: center;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -27,7 +44,7 @@ body {
 
 h1 {
   margin-bottom: 20px;
-  color: #f5c518; /* IMDb Yellow color for a movie vibe */
+  color: #f5c518;
 }
 
 /*Styling for search box and btn*/
