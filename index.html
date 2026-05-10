@@ -1,25 +1,34 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Movie Search Webapp</title>
     <!-- CSS file -->
-    <link rel="stylesheet" href="main.css">
-</head>
-<body>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
     <div class="container">
-        <h1>Movie Search</h1>
+      <h1>Movie Search</h1>
 
-        <div class="search-box">
-            <input type="text" id="movie-input" placeholder="Enter a movie name (e.g. Batman)...">
-            <button id="search-btn">Search</button>
+      <div class="search-box">
+        <input
+          type="text"
+          id="movie-input"
+          placeholder="Enter a movie name (e.g., Interstellar)..."
+        />
+        <button id="search-btn">Search</button>
+      </div>
+
+      <div id="movie-result">
+        <div style="padding: 50px 0; color: #b3b3b3">
+          <h1 style="font-size: 60px; margin-bottom: 10px">🍿</h1>
+          <h1 style="color: rgb(169, 169, 169);">What are you watching today?</h1>
+          <p>Search for a movie to see details, ratings, and more!</p>
         </div>
-
-        <div id="movie-result"></div>
-
+      </div>
     </div>
-    
+
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
